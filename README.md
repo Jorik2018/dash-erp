@@ -1,0 +1,1 @@
+poetry run python -m dash_erp.app

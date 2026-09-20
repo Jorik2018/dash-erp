@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dash-erp"
+version = "0.1.0"
+description = ""
+authors = ["Erik Antonio Alarcón Pinedo <C8VMM@ferrovial.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dash = "^4.4.1"
+plotly = "^7.0.0"
+pandas = "^3.0.5"
+pymongo = "^4.18.0"
+python-dotenv = "^1.2.3"
+dash-bootstrap-components = "^2.0.4"
+openpyxl = "^3.1.5"
+hvac = "^2.4.0"
+waitress = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
